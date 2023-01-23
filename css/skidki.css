@@ -1,0 +1,64 @@
+.sale{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    background-color: #AE7C78;
+}
+.saletext{
+    flex:1;
+    color: white;
+}
+.saletext h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin-top: 11%;
+    
+}
+.saletext p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 7%;
+}
+.salephoto{
+    flex: 1;
+}
+@media(max-width: 1100px){
+    .saletext h2{
+        font-size: 36px;
+    }
+}
+@media(max-width: 940px){
+    .saletext h2{
+        font-size: 22px;
+    }
+    .saletext p{
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+}
+@media(max-width: 630px){
+    .sale{
+        flex-direction: column;
+        background-color: white;
+
+    }
+    .saletext{
+        background-color: #AE7C78;
+    }
+    .saletext h2{
+        font-size: 14px;
+    }
+    
+    .saletext p{
+        font-size: 8px;
+        margin-bottom: 10%;
+    }
+}

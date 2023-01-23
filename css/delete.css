@@ -1,0 +1,19 @@
+.delform{
+   
+        width: Xu;
+        height: Yu;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -(X/2)u;
+        margin-top: -(Y/2)u;
+     
+}
+.del{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 100px;
+    
+}

@@ -1,0 +1,42 @@
+footer{
+    border: 1px solid #AE7C78;
+    background-color: #AE7C78;
+}
+footer ul{
+    text-align: center;
+}
+footer li{
+    display: inline-block;
+    margin: 1% 5%;
+    font-size: 16px;
+    
+    
+}
+footer a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+@media(max-width: 1120px){
+    footer li{
+        display: inline-block;
+        margin: 1% 4%;
+        font-size: 12px;
+        
+        
+    }
+}
+@media(max-width: 900px){
+    footer li{
+        margin: 1% 2%;
+        font-size: 8px;
+        
+    }
+}
+@media(max-width: 380px){
+    footer li{
+
+        margin: 1% 1%;
+        font-size: 6px;
+        
+    }
+}

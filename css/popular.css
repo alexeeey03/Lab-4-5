@@ -1,0 +1,113 @@
+.pop{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7%;
+    margin-left: 16%;
+    margin-right: 16%;
+    
+}
+.headerpop{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 3%;
+    color: #AE7C78;
+}
+.textflowerspop{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    color: hsl(4, 25%, 58%);
+
+    
+}
+.textflowerspop h2{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    margin: 0 2%;
+    flex:1;
+    padding-bottom: 7%;
+}
+.description a{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #AE7C78;
+    color: white;
+    padding: 6% 20%;
+    border-radius: 100px;
+}
+.description p{
+    margin-bottom: 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    margin-top: 20%;
+}
+.flowers img{
+    width: auto;
+    height: 266.67px;
+    flex: 1;
+}
+@media(max-width: 864px){
+    
+    .textflowerspop h2{
+        font-size: 16px;
+    }
+    .description p{
+        font-size: 12px;
+    }
+    .description a{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width: 669px){
+    
+    .textflowerspop h2{
+        font-size: 12px;
+    }
+    .description p{
+        font-size: 10px;
+    }
+    .description a{
+        font-size: 8px;
+    }
+    .headerpop{
+        font-size: 18px;
+    }
+}
+@media(max-width: 543px){
+    
+    .textflowerspop h2{
+        font-size: 10px;
+    }
+    .description p{
+        font-size: 8px;
+    }
+    .description a{
+        font-size: 6px;
+    }
+    
+}
+@media(max-width: 400px){
+    .headerpop{
+        font-size: 16px;
+    }
+    .textflowerspop h2{
+        font-size: 8px;
+    }
+    .description p{
+        font-size: 6px;
+    }
+
+    
+}
